@@ -1,0 +1,15 @@
+.breadcrumb > li{
+    display: inline;
+}
+
+.breadcrumb li+li::before {
+    content: ">";
+    padding: 10px;
+}
+.breadcrumb a {
+    text-decoration: none;
+}
+
+.breadcrumb a:hover{
+    color: red;
+}
